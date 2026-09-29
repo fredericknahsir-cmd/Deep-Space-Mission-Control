@@ -76,3 +76,36 @@ a {
     font-weight: bold;
     letter-spacing: 3px;
 }
+
+.hero h1 {
+    max-width: 700px;
+    margin: 0;
+    font-size: 3.5rem;
+    line-height: 1.05;
+}
+
+.lead {
+    max-width: 650px;
+    color: #b9c3d6;
+    font-size: 1.15rem;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.button {
+    display: inline-block;
+    padding: 11px 18px;
+    border: 1px solid #67728a;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.primary {
+    background: #f4f7fb;
+    color: #090d18;
+}
