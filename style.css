@@ -109,3 +109,20 @@ a {
     background: #f4f7fb;
     color: #090d18;
 }
+
+.mission-orbit {
+    position: relative;
+    min-height: 360px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #30394b;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.planet {
+    width: 150px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #c2c9d5, #59657a);
+}
