@@ -145,3 +145,29 @@ a {
     font-size: 0.75rem;
     letter-spacing: 2px;
 }
+
+.stats {
+    display: grid;
+    grid-template-columns: pepeat(4, 1fr);
+    gap: 14px;
+    margin-bottom: 18px;
+}
+
+.stat-card,
+.panel,
+.crew-card {
+    border: 1px solid #30394b;
+    background: #111827;
+    border-radius: 10px;
+}
+
+.stat-card {
+    padding: 18px;
+}
+
+.stat-card span {
+    display: block;
+    color: #91a0ba;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
