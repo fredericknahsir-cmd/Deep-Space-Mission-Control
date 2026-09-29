@@ -126,3 +126,22 @@ a {
     border-radius: 50%;
     background: linear-gradient(135deg, #c2c9d5, #59657a);
 }
+
+.orbit-ring {
+    position: absolute;
+    width: 290px;
+    aspect-ratio: 1;
+    border: 1px solid #59657a;
+    border-radius: 50%;
+}
+
+.ship {
+    position: absolute;
+    top: 24%;
+    right: 15%;
+    padding: 7px 10px;
+    border: 1px solid #8f9cb2;
+    background: #111827;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+}
