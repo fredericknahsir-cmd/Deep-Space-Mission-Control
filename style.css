@@ -171,3 +171,37 @@ a {
     font-size: 0.8rem;
     text-transform: uppercase;
 }
+
+.stat-card strong {
+    font-size: 1.25rem;
+}
+
+.stat-card strong {
+    font-size: 1.25rem;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 18px;
+}
+
+.panel {
+    padding: 24px;
+}
+
+.mission-panel {
+    grid-row: span 2;
+}
+
+.panel h2 {
+    margin-top: 0;
+}
+
+.progress {
+    height: 10px;
+    margin: 26px 0 8px;
+    background: #242c3b;
+    border-radius: 999px;
+    overflow: hidden;
+}
